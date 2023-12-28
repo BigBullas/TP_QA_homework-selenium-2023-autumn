@@ -54,3 +54,16 @@ class SettingsLocators():
     MODAL_ACTIONS_DELETE_ACCOUNT = (By.XPATH, "//div[contains(@class, 'DeleteAccountConfirmModal_actions')]")
     CONFIRM_DELETE_ACCOUNT = (By.XPATH,
                               "//button[contains(@class, 'vkuiButton--mode-primary') and contains(@class, 'vkuiButton--appearance-negative')]")
+
+class MainPageLocators():
+    TO_HELP_PAGE_LOCATOR = (By.XPATH, "/html/body/section/div[1]/div/header/div[1]/div[2]/div/div[2]/div/div/a")
+
+class HelpPageLocators():
+    AUTH_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[1]")
+    ADS_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[2]")
+    ADS_TOOLS_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[3]")
+    STATISTIC_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[4]")
+    DOCS_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[5]")
+    MINIMIZE_CABINET_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[6]")
+    FAQ_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[7]")
+    PARTNER_LOCATOR = (By.XPATH, "/html/body/section/div[2]/div[2]/div[2]/a[8]")
